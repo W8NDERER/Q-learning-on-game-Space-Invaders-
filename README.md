@@ -70,12 +70,12 @@ python test.py
 The agent will use the learned Q-table to make decisions in the game environment.
 # Project Structure
 ```
-config.py:          #Game and Q-learning parameters configuration.
-utils.py:           #Utility functions for loading images and fonts.
-qlearn.py:          #Q-learning algorithm implementation.
-main.py:            #Main game loop and logic.
-train.py:           #Training script for the Q-learning agent.
-test.py:            #Testing script for the trained agent.
+├── config.py:          #Game and Q-learning parameters configuration.
+├── utils.py:           #Utility functions for loading images and fonts.
+├── qlearn.py:          #Q-learning algorithm implementation.
+├── main.py:            #Main game loop and logic.
+├── train.py:           #Training script for the Q-learning agent.
+├── test.py:            #Testing script for the trained agent.
 ```
 # Notes
 The game window size is 1280x720 pixels.
